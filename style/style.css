@@ -5,7 +5,7 @@ html, body {
     padding:0;
 }
 html {
-  background: url("bg.jpg") no-repeat center center fixed;
+  background: url("bg1.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,7 +17,7 @@ h1 {
 }
 div {
     width: 100;
-    background-color: #FFF8F7;
+    background-color: #ECF2F7;
     padding: 50px 100px 100px 100px;
 }
 .about {
