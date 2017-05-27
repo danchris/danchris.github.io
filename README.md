@@ -1,6 +1,6 @@
 ## TEST
 
-This test repository contains a test website about me.
+This reporitory is about my personal web page
 
 ## Warning
 
