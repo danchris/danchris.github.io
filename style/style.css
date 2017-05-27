@@ -1,30 +1,37 @@
-body {
-    background-color: rgba(209, 209, 209, 1);
+/* body {
+    background-color: rgba(240, 240, 240, 1);
+    background-image:url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
 }
 
 img.background {
     position: fixed;
-    top: -50%;
+    top: -70%;
     left: 0;
     width: 100%;
-    height: 100%;
-    box-shadow: 0 0 20px -5px black;
-    border: 5px solid black;
-    margin: 10px 0 10px 0;
+    height: 10%;
+    border: 0 0 0 0;
+    border-style: none;
+    box-shadow: 0 0 20px -5px #d1d1d1;
+    margin: 0 0 100px 0;
+    margin-color: yellow;
 }
+
 .card {
-    position: absolute;
+    overflow-x: scroll;
+    width: auto;
+    height: 200px;
+}
+.about {
+    position: fixed;
     left: 0px;
-    top: 0px;
-
-}
-
-.card {
-    position: relative;
-    display: inline-block;
+    top: 50%;
 }
 .avatar {
-    top: 50%;
+    top: 100%;
+    left: 0;
     position: fixed;
     width: 270px;
     height: 200px;
@@ -33,4 +40,11 @@ img.background {
     border: 1px solid black;
     box-shadow: 0 0 20px -5px black;
 }
-
+*/
+html {
+  background: url("../images/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
