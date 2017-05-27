@@ -58,12 +58,30 @@ h1 {
 	font-family:Georgia;
 	margin: 10px 0 0 500px;
 }
-.about {
-	height: 100;
-	width:100;
+div {
+    width: 100;
     background-color: #f0ffff;
-	padding: 50px 100px 100px 100px;
-	margin-top: 150px;
+    padding: 50px 100px 100px 100px;
+}
+.about {
+    height: 100;
+/*	width:100;*/
+ /*   background-color: #f0ffff;
+	padding: 50px 100px 100px 100px;*/
+	margin-top: 180px;
+    margin-bottom: 220px;
+    border: 1px solid black;
+}
+.contact {
+    height: 200;
+   /* width: 100;
+/*    background-color: #f0ffff;
+    padding: 50px 100px 100px 100px;*/
+    margin-top: 550px;
+    margin-bottom: 200px;
+    border: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 150px;
 }
 .text {
 	font-family:Georgia;
@@ -76,4 +94,34 @@ a, a:link, a:visited, a:hover {
 }
 a:hover {
     text-decoration: underline;
+}
+
+ul {
+    margin: 30px 0 10px 450px;
+    padding: 10px 0 0 10px;
+    list-style: none;
+}
+ul li img {
+    float: left;
+    padding: 10px 15px;
+}
+ul li img {
+    height: 32px;
+    position: relative;
+}
+ul li a {
+    position: relative;
+    top: 0;
+    transition: top 0.2s;
+}
+ul li a:hover {
+    top: -5px;
+}
+ul li a:hover img {
+    padding-bottom: 15px;
+}
+ul li img.zoom {
+    top: -7px;
+    height: 47px;
+    padding: 10px 8px;
 }
