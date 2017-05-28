@@ -62,44 +62,38 @@ a, a:link, a:visited, a:hover {
     color: #4499dd;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
-ul {
-	list-style: none;
-	position: relative;
-	max-width: 1000px;
-	margin: auto;
-}
-/*
+
 ul {
 	list-style: none;
     max-width: 1000px;
     margin: auto;
 	position: relative;
 }
-*/
+
 ul li img {
     float: left;
-    padding: 10px 15px;
+    padding: 10px 145px;
 }
+
 ul li img {
     height: 32px;
     position: relative;
 }
+
 ul li a {
     position: relative;
     top: 0;
     transition: top 0.2s;
 }
+
 ul li a:hover {
     top: -5px;
 }
+
 ul li a:hover img {
     padding-bottom: 15px;
-}
-ul li img.zoom {
-    top: -7px;
-    height: 47px;
-    padding: 10px 8px;
 }
