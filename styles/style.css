@@ -1,9 +1,6 @@
-*{margin:0; padding:0}
 html, body {
     height:100%;
     width:100%;
-    max-height:100%;
-    max-width:100%;
     margin:0;
     padding:0;
 }
@@ -16,31 +13,29 @@ html {
 }
 h1 {
 	font-family:Georgia;
-	margin: 1% 0 0 40%;
+	margin: 10px 0 0 500px;
 }
 div {
-    width: 80%;
-    max-width: 100%;
+    width: 100;
     background-color: #ECF2F7;
-    margin: 10% 0 5% 0%;
-    padding: 5% 10% 10% 10%;
+    padding: 50px 100px 100px 100px;
 }
 
 .about {
     height: 100;
-	margin-top: 9.3%;
-    margin-bottom: 5%;
+	margin-top: 180px;
+    margin-bottom: 220px;
 }
 .contact {
     height: 200;
-    margin-top: 12%;
-    margin-bottom: 6%;
-	padding-top: 1%;
-	padding-bottom: 0.8%;
+    margin-top: 550px;
+    margin-bottom: 200px;
+	padding-top: 10px;
+	padding-bottom: 150px;
 }
 .text {
 	font-family:Georgia;
-	margin: 5%;
+	margin: 50px;
 }
 
 a, a:link, a:visited, a:hover {
@@ -52,16 +47,16 @@ a:hover {
 }
 
 ul {
-    margin: 30% 0 1% 4%;
-    padding: 0 0 0 0;
+    margin: 30px 0 10px 450px;
+    padding: 10px 0 0 10px;
     list-style: none;
 }
 ul li img {
     float: left;
-    padding: 1% 1%;
+    padding: 10px 15px;
 }
 ul li img {
-    height: 3%;
+    height: 32px;
     position: relative;
 }
 ul li a {
@@ -70,13 +65,13 @@ ul li a {
     transition: top 0.2s;
 }
 ul li a:hover {
-    top: -1%;
+    top: -5px;
 }
 ul li a:hover img {
-    padding-bottom: 1%;
+    padding-bottom: 15px;
 }
 ul li img.zoom {
-    top: -7%;
-    height: 4%;
-    padding: 1% 1%;
+    top: -7px;
+    height: 47px;
+    padding: 10px 8px;
 }
