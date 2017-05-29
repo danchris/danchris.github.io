@@ -8,19 +8,24 @@
         <meta name="keywords" content="blog personal" />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link rel="stylesheet" href="styles/style.css" />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     </head>
 
 	<body>
+
 		<section>
-            <div class="about">
+            <div id="about">
                 <h1>About Me</h1>
                 <p class="text"><strong>Hey!</strong> I'm Daniel Christodoulopoulos and i live in Athens Greece.
                 I'm undergraduate student at school of Electrical and Computer Engineering of National Technical Uninversity of Athens.
                 <a href="http://www.ece.ntua.gr">(ECE NTUA)</a></p>
             </div>
-        </section>
+		</section>
+        <section id="demo" class="demo">
+				<a id="button" href="#contact"><span></span>Scroll</a>
+		</section>
        <section>
-            <div class="contact">
+            <div id="contact">
                 <h1>Links</h1>
                 <ul>
                     <li><a href='https://facebook.com/danielchristodoulopoulos'><img
@@ -35,8 +40,16 @@
                     </ul>
             </div>
        </section>
+		<script>
+			$(function() {
+				$('a[href*=#]').on('click', function(e) {
+					e.preventDefault();
+					$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+				});
+			});
+		</script>
+
+
 	</body>
-
-
 </html>
 
