@@ -1,11 +1,44 @@
-@media (max-width: 480px) {
-	width: 100%;
+@media only screen and (max-width: 1280px) {
+    ul {
+        list-style:none;
+        max-width:100%;
+        margin:auto;
+        position:relative
+    }
+    ul li img {
+        float:left;
+        padding:10px 14.8%;
+        height:32px;
+        width: 30px;
+        position:relative
+    }
+        div{
+
+            width: 1280px;
+        }
 
 }
-section,div {
-        position: static;
-        width: 100%;
-        height: auto;
-        float: none;
-}
 
+
+@media only screen and (max-width: 1024px) {
+    div {
+
+            width: 1024px;
+    }
+
+    ul {
+        list-style:none;
+        max-width:100%;
+        margin:auto;
+        position:relative
+    }
+
+    ul li img {
+        float:left;
+        padding:10px 14.3%;
+        height:32px;
+        width: 30px;
+        position:relative
+    }
+
+}
