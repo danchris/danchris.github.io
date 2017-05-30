@@ -1,10 +1,11 @@
 @media (max-width: 480px) {
 	width: 100%;
 
-}/*
-section {
+}
+section,div {
         position: static;
         width: 100%;
         height: auto;
+        float: none;
 }
-*/
+
