@@ -1,7 +1,7 @@
 html {
 	background:url(../images/bg.jpg) no-repeat center center fixed;
-	//background-color: rgb(185, 190, 204);
-	//background-color: rgb(135, 143, 171);
+	/*background-color: rgb(185, 190, 204);
+	//background-color: rgb(135, 143, 171);*/
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -148,8 +148,8 @@ h1 {
 }
 div {
 	position:absolute;
-	background-color:rgba(236,242,247,0.6);
-//  background-color: rgba(183, 208, 225,.9);
+	background-color:rgba(236,242,247,0.9);
+/*  background-color: rgba(183, 208, 225,.9);*/
 	top:25%;
 	width:100%;
 	height:300px
