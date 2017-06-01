@@ -1,7 +1,7 @@
 html {
-	//background:url(../images/bg.jpg) no-repeat center center fixed;
+	background:url(../images/bg.jpg) no-repeat center center fixed;
 	//background-color: rgb(185, 190, 204);
-	background-color: rgb(135, 143, 171);
+	//background-color: rgb(135, 143, 171);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
