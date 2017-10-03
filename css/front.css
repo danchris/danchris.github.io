@@ -26,6 +26,9 @@ body {
     margin-bottom: 0.5%;
 }
 #avatar:hover {
+  -moz-transition: width 1.5s, height 1.5s, transform 1.5s;
+  -webkit-transition: width 1.5s, height 1.5s, transform 1.5s;
+  transition: width 1.5s, height 1.5s, transform 1.5s;
   -moz-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
@@ -69,6 +72,9 @@ li {
 li:hover {
     color: white;
     text-decoration: none;
+    -moz-transition: width 1.5s, height 1.5s, transform 1.5s;
+    -webkit-transition: width 1.5s, height 1.5s, transform 1.5s;
+    transition: width 1.5s, height 1.5s, transform 1.5s;
     -webkit-transition: 500ms;
     -moz-transition: 500ms;
     transition: 500ms;
