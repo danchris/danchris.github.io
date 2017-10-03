@@ -24,6 +24,12 @@ body {
     border: 5px solid white;
     margin-top: 6%;
     margin-bottom: 0.5%;
+  -moz-transition: width 1.5s, height 1.5s, transform 1.5s;
+  -webkit-transition: width 1.5s, height 1.5s, transform 1.5s;
+  transition: width 1.5s, height 1.5s, transform 1.5s;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 #avatar:hover {
   -moz-transition: width 1.5s, height 1.5s, transform 1.5s;
@@ -68,6 +74,15 @@ li {
     list-style: none;
     width: 65px;
     height: 65px;
+    -moz-transition: width 1.5s, height 1.5s, transform 1.5s;
+    -webkit-transition: width 1.5s, height 1.5s, transform 1.5s;
+    transition: width 1.5s, height 1.5s, transform 1.5s;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 li:hover {
     color: white;
