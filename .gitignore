@@ -1,4 +1,5 @@
 _site
 .sass-cache
 .jekyll-metadata
-README.md
+.jekyll-metadata
+Gemfile.lock
