@@ -16,8 +16,8 @@ avatar_img_path: "imgs/daniel.jpg"
 favicon: yes
 favicon_img_path: "favicon.ico"
 
-front_img: no
-front_img_path: "imgs/background.jpg"
+#front_img: no
+#front_img_path: "imgs/background.jpg"
 
 # Build settings
 markdown: kramdown
