@@ -1,7 +1,7 @@
 # Site settings
 title: Daniel Christodoulopoulos
 name: Daniel Christodoulopoulos
-description: "Hey! I'm Daniel Christodoulopoulos and i live in Athens Greece. I'm undergraduate student at school of Electrical and Computer Engineering of National Technical Uninversity of Athens."
+description: "Welcome...<br> I'm Daniel Christodoulopoulos and i live in Athens Greece. I'm undergraduate student at school of Electrical and Computer Engineering of National Technical Uninversity of Athens.<br>You can check my links below. Feel free to contact me."
 url: "https://danchris.github.io"
 
 github_username:  danchris
@@ -16,7 +16,7 @@ avatar_img_path: "imgs/daniel.jpg"
 favicon: yes
 favicon_img_path: "favicon.ico"
 
-front_img: yes
+front_img: no
 front_img_path: "imgs/background.jpg"
 
 # Build settings
