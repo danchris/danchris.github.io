@@ -3,3 +3,4 @@ _layouts
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+build.info
