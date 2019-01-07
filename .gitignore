@@ -4,3 +4,4 @@ _layouts
 .jekyll-metadata
 Gemfile.lock
 build.info
+*.swp
