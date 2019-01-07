@@ -20,6 +20,9 @@ body {
     top: 0;
     left: 0;
 }
+h1 {
+ word-wrap:break-word;
+}
 #avatar {
     height: 170px;
     border-radius: 100%;
