@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: danchris.github.io
+Token: f99df9bb1870ba0f700550ac31b91fa1983318206b90b0d083521a5eb409bcc7
