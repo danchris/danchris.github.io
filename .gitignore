@@ -5,5 +5,5 @@ _layouts
 Gemfile.lock
 build.info
 *.swp
-./bundle
+.bundle/
 vendor/
