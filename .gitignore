@@ -5,3 +5,6 @@ _layouts
 Gemfile.lock
 build.info
 *.swp
+.bundle/
+vendor/
+.jekyll-cache/
