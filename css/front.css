@@ -153,3 +153,9 @@ a:hover {
     padding-top: 60px;
 }
 }
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
